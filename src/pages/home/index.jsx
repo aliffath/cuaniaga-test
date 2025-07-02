@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useShop } from "../../context/ShopContext";
 import ProductList from "../../components/ProductList";
 import ShoppingCart from "../../components/ShoopingCart";
-import Button from "../../components/BUtton";
+import Button from "../../components/Button";
 import { TbToolsKitchen2Off } from "react-icons/tb";
 import Navbar from "../../components/Navbar";
 
