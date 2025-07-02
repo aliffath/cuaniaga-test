@@ -24,7 +24,7 @@ const Login = () => {
 
       localStorage.setItem("user", JSON.stringify(user));
       setError("");
-      navigate("/");
+      navigate("/home");
     } else {
       setError("Invalid username or password");
     }

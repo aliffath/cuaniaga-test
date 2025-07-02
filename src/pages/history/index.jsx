@@ -62,7 +62,7 @@ const OrderHistory = () => {
         </div>
       )}
       <div className="flex justify-center items-center mt-5">
-        <Link to="/" className=" text-blue-600 hover:underline cursor-pointer">
+        <Link to="/home" className=" text-blue-600 hover:underline cursor-pointer">
           Kembali ke Beranda
         </Link>
       </div>

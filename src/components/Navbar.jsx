@@ -23,7 +23,7 @@ const Navbar = () => {
       if (result.isConfirmed) {
         localStorage.clear();
         Swal.fire("Kamu telah logout.").then(() => {
-          navigate("/login");
+          navigate("/");
         });
       }
     });
