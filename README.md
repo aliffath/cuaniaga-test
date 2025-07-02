@@ -19,50 +19,47 @@ If you want to run this project locally, we recommend you configure the back-end
 
 - Clone the Repo
 
-git clone https://github.com/aliffath/cuaniaga-test
-Install Module
-
-npm install
-Type npm run dev To Start Website
+- git clone https://github.com/aliffath/cuaniaga-test
+- npm install
+- Type npm run dev To Start Website
 
 Try Our Web Application
 <a href="https://cuaniaga-test.netlify.app/">Launch to our App</a>
 
-If you want to try our web application, you can use the following account :
+## If you want to try our web application, you can use the following account :
 
 Username: admin
-
 Password: Admin#1234
 
 Cara Penggunaan
 Setelah berhasil login menggunakan akun dummy di atas, Anda dapat mencoba fitur-fitur berikut:
 
-🔐 Login
-Gunakan username: admin dan password: Admin#1234.
+- 🔐 Login
+  Gunakan username: admin dan password: Admin#1234.
 
 Setelah login berhasil, Anda akan diarahkan ke halaman utama produk.
 
-🛍️ Get Product
-Secara otomatis, daftar produk akan ditampilkan setelah login.
+- 🛍️ Get Product
+  Secara otomatis, daftar produk akan ditampilkan setelah login.
 
 Produk diambil dari API dengan metode GET.
 
-🔎 Search Product
-Gunakan input pencarian di bagian atas halaman untuk mencari produk berdasarkan nama.
+- 🔎 Search Product
+  Gunakan input pencarian di bagian atas halaman untuk mencari produk berdasarkan nama.
 
 Pencarian bersifat real-time dan hanya menampilkan produk yang sesuai dengan kata kunci.
 
-🧺 Keranjang Belanja (Cart)
-Klik tombol "Tambah ke Keranjang" di setiap produk untuk menambahkannya ke keranjang.
+- 🧺 Keranjang Belanja (Cart)
+  Klik tombol "Tambah ke Keranjang" di setiap produk untuk menambahkannya ke keranjang.
 
 Produk yang sudah ditambahkan dapat dilihat di halaman Cart, biasanya melalui ikon keranjang di header.
 
-💳 Checkout
-Setelah memilih produk, klik tombol "Checkout" di halaman keranjang.
+- 💳 Checkout
+  Setelah memilih produk, klik tombol "Checkout" di halaman keranjang.
 
 Sistem akan memproses pesanan dan menyimpannya di Order History.
 
-📦 Order History
-Setelah checkout, Anda akan memilih ke halaman Order History atau Home.
+- 📦 Order History
+  Setelah checkout, Anda akan memilih ke halaman Order History atau Home.
 
 Di sini, Anda bisa melihat daftar produk yang telah Anda beli sebelumnya, termasuk detail jumlah dan tanggal pembelian.
