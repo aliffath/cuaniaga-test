@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./BUtton";
+import Button from "./Button";
 
 const ProductList = ({ products, onAddToCart }) => {
   return (
