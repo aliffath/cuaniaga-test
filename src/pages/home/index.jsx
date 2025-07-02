@@ -56,7 +56,9 @@ const Home = () => {
               </div>
             </div>
             <div className="lg:border-l-2 lg:border-gray-300 lg:pl-5">
-              <ShoppingCart cart={cart} onUpdateQuantity={updateQuantity} onRemove={removeFromCart} onCheckout={checkout} />
+              <div className="mb-8">
+                <ShoppingCart cart={cart} onUpdateQuantity={updateQuantity} onRemove={removeFromCart} onCheckout={checkout} />
+              </div>
             </div>
           </>
         )}
